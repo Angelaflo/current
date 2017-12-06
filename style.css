@@ -1,0 +1,55 @@
+.row{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6em;
+  letter-spacing: 2em;
+  
+  width: 100vw;
+  height: 20vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sky {
+  background: #FFCFE7;
+  color: #FFFFFF;
+}
+
+.ground {
+  color: #FFFFFF;
+  background: #000000;
+}
+
+
+.box{
+	height:70vh;
+	width:50vw;
+}  
+
+.pink{
+	background: #FFCFE7;
+}
+
+.black{
+	background:#000000; 
+}
+
+.rowone{
+	display:flex;
+	flex-wrap:wrap;
+  width: 100vw;
+  height: 40vh;
+}
+
+@media screen and (max-width: 899px) {
+	
+	body{
+		display:block;
+	}
+	
+	.box {
+		height: 50vh;
+		width: 100vw;
+	}
+}
